@@ -1,0 +1,4 @@
+{
+    "sortJSON.orderOverride": ["name", "version", "description"],
+    "sortJSON.orderUnderride": ["dependencies", "devDependencies"]
+}
