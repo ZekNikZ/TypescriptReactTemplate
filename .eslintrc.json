@@ -20,7 +20,6 @@
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
         "brace-style": ["error"],
-        "class-methods-use-this": ["error"],
         "comma-style": ["error"],
         "curly": ["error"],
         "default-case": ["warn"],
@@ -38,7 +37,7 @@
         ],
         "jsx-quotes": ["error", "prefer-double"],
         "keyword-spacing": ["error"],
-        "linebreak-style": ["error", "unix"],
+        // "linebreak-style": ["error", "unix"],
         "max-len": [
             "warn",
             {
@@ -52,7 +51,7 @@
         "no-multi-spaces": ["error"],
         "no-trailing-spaces": ["error"],
         "prefer-const": ["warn"],
-        "quotes": ["error", "single"],
+        "quotes": ["error", "single", { "avoidEscape": true }],
         "semi": ["error", "always"],
         "semi-style": ["error"],
         "sort-imports": [
